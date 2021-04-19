@@ -16,6 +16,7 @@
 
 \LoadClass[11pt,letterpaper]{article}
 
+
 \usepackage[parfill]{parskip}       % Do not indent paragraphs
 \usepackage{array}                  % required for boldface tabular columns
 \usepackage{ifthen}
@@ -29,7 +30,7 @@
 \def \name#1{\def\@name{#1}}        % \name command can be used to set name
 \def \@name {}                      % Set \@name to empty by default
 
-\def \addressSep {$\diamond$}         % Set default address seperator
+\def \addressSep {$\bullet$}         % Set default address seperator
 
 % One or two address lines can be specified 
 \let \@addressone \relax
